@@ -31,87 +31,24 @@ Exemplo: procurando pela letra "c" na palavra "Caraca" (perceba que há diferen�
 
 
 <h3>Os Meta-caracteres</h3>
-
-<tr>
-    <td>Meta-Caractere</td>
-    <td>Nome</td>
-    <td>Definição</td>
-</tr>
-<tr>
-    <td>text . text</td>
-    <td>Ponto</td>
-    <td>Pega 2 valores e UM UNICO CARACTERE que estiver no meio</td>
-</tr>
-<tr>
-    <td> [] </td>
-    <td>Conjunto</td>
-    <td>Conjunto de caracteres permitidos</td>
-</tr>
-<tr>
-    <td> [^] </td>
-    <td>Conjunto Negado</td>
-    <td>Conjunto de caracteres Não Permitidos</td>
-</tr>
-<tr>
-    <td> [^] </td>
-    <td>Conjunto Negado</td>
-    <td>Conjunto de caracteres Não Permitidos</td>
-</tr>
-<tr>
-    <td> ? </td>
-    <td>Interrogação</td>
-    <td>Zero ou Um</td>
-</tr>
-<tr>
-    <td> * </td>
-    <td>Asterisco</td>
-    <td>Zero ou Mais</td>
-</tr>
-<tr>
-    <td> + </td>
-    <td>Mais</td>
-    <td>Um ou Mais</td>
-</tr>
-<tr>
-    <td> {N,M} </td>
-    <td>Chaves</td>
-    <td>De N até M</td>
-</tr>
-<tr>
-    <td> ^ </td>
-    <td>Circunflexo</td>
-    <td>Inicio da Linha</td>
-</tr>
-<tr>
-    <td> $ </td>
-    <td>Cifrão</td>
-    <td>Fim da Linha</td>
-</tr>
-<tr>
-    <td> \b </td>
-    <td>Borda</td>
-    <td>Inicio ou fim de uma palavra</td>
-</tr>
-<tr>
-    <td> \ </td>
-    <td>Escape</td>
-    <td>Uso de um meta-caractere como literal</td>
-</tr>
-<tr>
-    <td> | </td>
-    <td>Ou</td>
-    <td>Operação de Ou</td>
-</tr>
-<tr>
-    <td> () </td>
-    <td>Grupo</td>
-    <td>Define um grupo de caracteres</td>
-</tr>
-<tr>
-    <td> \1...\9 </td>
-    <td>Retrovisor</td>
-    <td>Resgata grupos já definidos</td>
-</tr>
+ ___________________________________________________________________________________
+| Meta-Caractere | Nome            | Definição                                      |
+|----------------|-----------------|------------------------------------------------|
+| text . text    | Ponto           | Pega 2 valores e UM UNICO CARACTERE no meio    |
+| []             | Conjunto        | Conjunto de caracteres permitidos              |
+| [^]            | Conjunto Negado | Conjunto de caracteres Não Permitidos          |
+| ?              | Interrogação    | Zero ou Um                                     |
+| *              | Asterisco       | Zero ou Mais                                   |
+| +              | Mais            | Um ou Mais                                     |
+| {N,M}          | Chaves          | De N até M                                     |
+| ^              | Circunflexo     | Inicio da Linha                                |
+| $              | Cifrão          | Fim da Linha                                   |
+| \b             | Borda           | Inicio ou fim de uma palavra                   |
+| \              | Escape          | Uso de um meta-caractere como literal          |
+| \|             | Ou              | Operação de Ou                                 |
+| ()             | Grupo           | Define um grupo de caracteres                  |
+| \1...\9        | Retrovisor      | Resgata grupos já definidos                    |
++-----------------------------------------------------------------------------------+
 
 # Dicas! 
 
