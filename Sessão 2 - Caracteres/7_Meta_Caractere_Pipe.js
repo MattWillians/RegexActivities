@@ -1,0 +1,2 @@
+const texto = "Eu amo programar em java, mas não gosto de python" // Texto que vamos procurar as palavras
+console.log(texto.match(/amo|java|não|python/gi)) // usamos o PIPE ( | ) Para dizer que queremos algum desses elementos
