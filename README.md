@@ -31,7 +31,7 @@ Exemplo: procurando pela letra "c" na palavra "Caraca" (perceba que há diferen�
 
 
 <h3>Os Meta-caracteres</h3>
- ___________________________________________________________________________________
+
 | Meta-Caractere | Nome            | Definição                                      |
 |----------------|-----------------|------------------------------------------------|
 | text . text    | Ponto           | Pega 2 valores e UM UNICO CARACTERE no meio    |
@@ -48,7 +48,6 @@ Exemplo: procurando pela letra "c" na palavra "Caraca" (perceba que há diferen�
 | \|             | Ou              | Operação de Ou                                 |
 | ()             | Grupo           | Define um grupo de caracteres                  |
 | \1...\9        | Retrovisor      | Resgata grupos já definidos                    |
-+-----------------------------------------------------------------------------------+
 
 # Dicas! 
 
