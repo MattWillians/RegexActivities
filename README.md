@@ -31,24 +31,43 @@ Exemplo: procurando pela letra "c" na palavra "Caraca" (perceba que há diferen�
 
 
 <h3>Os Meta-caracteres</h3>
+      
+| Meta-Caractere | Nome            | Definição                                                       |
+|----------------|-----------------|-----------------------------------------------------------------|
+| text . text    | Ponto           | Pega 2 valores e UM UNICO CARACTERE no meio                     |
+| []             | Conjunto        | Conjunto de caracteres permitidos                               |
+| [^]            | Conjunto Negado | Conjunto de caracteres Não Permitidos                           |
+| ?              | Interrogação    | Zero ou Um                                                      |
+| *              | Asterisco       | Zero ou Mais                                                    |
+| +              | Mais            | Um ou Mais                                                      |
+| {N,M}          | Chaves          | De N até M                                                      |
+| ^              | Circunflexo     | Inicio da Linha                                                 |
+| $              | Cifrão          | Fim da Linha                                                    |
+| \b             | Borda           | Inicio ou fim de uma palavra                                    |
+| \              | Escape          | Uso de um meta-caractere como literal                           |
+| \|             | Ou              | Operação de Ou                                                  |
+| ()             | Grupo           | Define um grupo de caracteres                                   |
+| \1...\9        | Retrovisor      | Resgata grupos já definidos                                     |
+| \u             | Unicode         | Usado para localizar unicodes em regex                          |
+| \d             | Digito          | Usado para localizar digitos                                    |
+| \D             | Não-Digito      | Usado para localizar TUDO MENOS: digitos                        |
+| \w             | Caracteres      | Usado para localizar caracteres de: [ a-z, A-Z, 0-9 e _ ]       |
+| \W             | Não-Caractere   | Usado para localizar caracteres fora de: [ a-z, A-Z, 0-9 e _ ]  |
+| \s             | Espaço          | Usado para localizar espaços [\s, \t, ' '...]                   |
+| \S             | Não-Espaço      | Localiza tudo, menos espaço                                     |
 
-| Meta-Caractere | Nome            | Definição                                      |
-|----------------|-----------------|------------------------------------------------|
-| text . text    | Ponto           | Pega 2 valores e UM UNICO CARACTERE no meio    |
-| []             | Conjunto        | Conjunto de caracteres permitidos              |
-| [^]            | Conjunto Negado | Conjunto de caracteres Não Permitidos          |
-| ?              | Interrogação    | Zero ou Um                                     |
-| *              | Asterisco       | Zero ou Mais                                   |
-| +              | Mais            | Um ou Mais                                     |
-| {N,M}          | Chaves          | De N até M                                     |
-| ^              | Circunflexo     | Inicio da Linha                                |
-| $              | Cifrão          | Fim da Linha                                   |
-| \b             | Borda           | Inicio ou fim de uma palavra                   |
-| \              | Escape          | Uso de um meta-caractere como literal          |
-| \|             | Ou              | Operação de Ou                                 |
-| ()             | Grupo           | Define um grupo de caracteres                  |
-| \1...\9        | Retrovisor      | Resgata grupos já definidos                    |
-| \u             | Unicode         | Usado para localizar unicodes em regex         |
+
+<h3>Exemplos de QUANTIFICADORES</h3>
+
+| Quantificador   | Significado            |
+|:---------------:|------------------------|
+| {2,3}           | De 2 a 3               |
+| {3,}            | 3 ou mais              |
+| {0,4}           | até 4                  |
+| {2}             | exatamente 2           |
+| {0,1}           | 0 ou 1 (igual ao ?)    |
+| {0,}            | 0 ou mais (igual ao *) |
+| {1,}            | 1 ou mais (igual ao +) |
 
 # Dicas! 
 

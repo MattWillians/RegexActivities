@@ -1,0 +1,3 @@
+const texto = "O tema principal em Mateu é de que Jesus Cristo veio estabelecer Seu reino na Terra. Mateus mencionou “o reino dos céus” inúmeras vezes e ele é o único autor dos evangelhos a incluir ensinamentos de Jesusssssssssssssssssssssssssssssssssssss. Mateu era um dos discipulos de Jesu." //Disclammer: Este texto foi tirado da internet, e é apenas usado para extrair palavras, nada alem disso.
+
+console.log(texto.match(/Jesus*/gi)) // veja que no texto, o nome Jesus, contem varias, ou nenhuma letra S, mas mesmo assim, trazemos ele. Isso é devido ao fato que tornamos ""um ou mais"" apenas o s
