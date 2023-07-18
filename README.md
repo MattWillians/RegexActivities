@@ -45,7 +45,7 @@ Exemplo: procurando pela letra "c" na palavra "Caraca" (perceba que há diferen�
 | $              | Cifrão          | Fim da Linha                                                    |
 | \b             | Borda           | Inicio ou fim de uma palavra                                    |
 | \              | Escape          | Uso de um meta-caractere como literal                           |
-| \|             | Ou              | Operação de Ou                                                  |
+| ||             | Ou              | Operação de Ou                                                  |
 | ()             | Grupo           | Define um grupo de caracteres                                   |
 | \1...\9        | Retrovisor      | Resgata grupos já definidos                                     |
 | \u             | Unicode         | Usado para localizar unicodes em regex                          |
