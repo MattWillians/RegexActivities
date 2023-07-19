@@ -7,7 +7,7 @@ Lista de emails premiados:
 - isabelamartins14@hotmail.com
 - pablopereira.franco40@bol.com.br
 - laurabarros.albuquerque@hotmail.com
-- elsiomoraes_moreira@yahoo.respostas.com.br
+- dsfggsfdgelsiomoraes_moreira@yahoo.respsdgfostas.com.br
 `// todos os emails são falsos
 
 let regexPuxaEmail = /\w+@\w+\.[\w+\.]+/gi
