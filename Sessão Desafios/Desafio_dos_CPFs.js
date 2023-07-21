@@ -14,6 +14,7 @@ Lista de CPF dos alunos aprovados:
 
 `;// NENHUM DESTES CPF's SÃO REAIS
 
+//Solução 1
 const regexExtraiCPF = /\d{3}.+-\d{2}/g
 const listaDeCpf = texto.match(regexExtraiCPF)
 
