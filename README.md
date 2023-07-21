@@ -29,12 +29,14 @@ A flag de Ignoring case / Insensitive, busca por qualquer ocorrencia desejada, n
 
 Exemplo: procurando pela letra "c" na palavra "Caraca" (perceba que há diferenças entre as letras C e c), será retornado "C, c", ou seja, todas as ocorrencias ignorando suas diferenças.
 
+<h5>Flag m (Multiline)</h5>
+a flag de multiline faz com que seja possivel extrair expressões regulares de varias linhas de um texto!
 
 <h3>Os Meta-caracteres</h3>
       
 | Meta-Caractere | Nome            | Definição                                                       |
 |----------------|-----------------|-----------------------------------------------------------------|
-| text . text    | Ponto           | Pega 2 valores e UM UNICO CARACTERE no meio                     |
+| text . text    | Ponto           | UM UNICO CARACTERE  (qualquer um)                               |
 | []             | Conjunto        | Conjunto de caracteres permitidos                               |
 | [^]            | Conjunto Negado | Conjunto de caracteres Não Permitidos                           |
 | ?              | Interrogação    | Zero ou Um                                                      |
