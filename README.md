@@ -1,4 +1,4 @@
-# RegexActivities
+# Documentação sobre Regex (Expressões Regulares)
 
 <h3>O que é Regex?</h3>
 - > Regex, ou "Expressão regular, é definido como um método de identificar padrões em um texto".
